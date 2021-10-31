@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+const assert = require('assert');
+
+const toUpperCase = (label) => label.toUpperCase();
+assert.strictEqual(toUpperCase('this'), 'THIS');
+
+function sigil(intention) {
+  const capsIntention = toUpperCase(intention);
+  const netIntention = {};
+  const out = [];
+
+  for (let c of capsIntention.split('')) {
+    if (c !== ' ' && netIntention[c] === undefined) {
+      netIntention[c] = 1;
+
+    } else if (c !== ' ' && netIntention[c] !== undefined) {
+      netIntention[c] += 1;
+    }
+
+    if (c === ' ' || netIntention[c] === 1) {
+      out.push(c);
+    } else if (netIntention[c] > 1) {
+      out.push('-');
+    }
+  }
+
+  return out.join('');
+}
+exports.sigil = sigil;
+assert.strictEqual(sigil('this my wish to obtain the strength of a tiger'), 'THIS MY W--- -O -B-A-N --E --R--G-- -F - -----');
+
+
+if (!module.parent) {
+  const args = process.argv.slice(2);
+  console.log(sigil(args[0]));
+}
