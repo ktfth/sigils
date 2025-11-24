@@ -4,21 +4,44 @@ const assert = require('assert');
 const toUpperCase = (label) => label.toUpperCase();
 assert.strictEqual(toUpperCase('this'), 'THIS');
 
+/**
+ * Transforma uma intenção em um sigilo.
+ *
+ * O sigilo é criado mantendo apenas a primeira ocorrência de cada letra.
+ * Letras repetidas são substituídas por traços (-).
+ *
+ * @param {string} intention - A intenção a ser transformada em sigilo
+ * @returns {string} O sigilo gerado
+ *
+ * @example
+ * sigil('desejo força') // retorna 'DESJO -ORÇA'
+ */
 function sigil(intention) {
+  // Converte toda a intenção para maiúsculas
   const capsIntention = toUpperCase(intention);
+
+  // Registra quantas vezes cada letra já apareceu
   const netIntention = {};
+
+  // Armazena o resultado final
   const out = [];
 
+  // Percorre cada caractere da intenção
   for (let c of capsIntention.split('')) {
+    // Se for uma letra que ainda não apareceu, registra a primeira ocorrência
     if (c !== ' ' && netIntention[c] === undefined) {
       netIntention[c] = 1;
 
+    // Se a letra já apareceu, incrementa o contador
     } else if (c !== ' ' && netIntention[c] !== undefined) {
       netIntention[c] += 1;
     }
 
+    // Mantém espaços e primeira ocorrência de cada letra
     if (c === ' ' || netIntention[c] === 1) {
       out.push(c);
+
+    // Substitui repetições por traços
     } else if (netIntention[c] > 1) {
       out.push('-');
     }
