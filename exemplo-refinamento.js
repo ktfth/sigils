@@ -9,7 +9,7 @@
  * Requer: OPENROUTER_API_KEY configurada
  */
 
-const { sigil } = require('./sigils');
+const { sigil } = require('./index');
 const { refinarIntencao, obterApiKey } = require('./refinar');
 
 // Exemplos de intenções que precisam de refinamento

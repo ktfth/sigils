@@ -5,7 +5,7 @@
  * Execute com: node exemplos.js
  */
 
-const { sigil } = require('./sigils');
+const { sigil } = require('./index');
 
 console.log('='.repeat(60));
 console.log('EXEMPLOS DE SIGILOS EM PORTUGUÊS');

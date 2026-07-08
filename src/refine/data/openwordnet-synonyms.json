@@ -1,0 +1,514 @@
+{
+  "coragem": [
+    "denodo",
+    "nervo",
+    "ânimo"
+  ],
+  "valentia": [
+    "bravura"
+  ],
+  "bravura": [
+    "valentia"
+  ],
+  "medo": [
+    "consternação",
+    "dor",
+    "estupefação",
+    "pavor",
+    "preocupação",
+    "pânico",
+    "temor",
+    "terror"
+  ],
+  "covardia": [
+    "cobardia"
+  ],
+  "pavor": [
+    "consternação",
+    "dor",
+    "medo",
+    "temor"
+  ],
+  "sabedoria": [
+    "aprendizado",
+    "aprendizagem",
+    "erudição",
+    "sagacidade",
+    "sapiência",
+    "sensatez"
+  ],
+  "sapiência": [
+    "sabedoria",
+    "sagacidade",
+    "sensatez"
+  ],
+  "ignorância": [
+    "escuridão"
+  ],
+  "burrice": [
+    "estupidez"
+  ],
+  "clareza": [
+    "claridade",
+    "transparência"
+  ],
+  "clara": [
+    "albumen",
+    "albúmen"
+  ],
+  "lucidez": [
+    "transparência"
+  ],
+  "confusão": [
+    "bagunça",
+    "balbúrdia",
+    "bruma",
+    "caos",
+    "comoção",
+    "erro",
+    "estorvo",
+    "perplexidade",
+    "tumulto",
+    "vergonha",
+    "zona",
+    "óbice"
+  ],
+  "dúvida": [
+    "descrença",
+    "incerteza",
+    "questão"
+  ],
+  "confiança": [
+    "altivez",
+    "aprumo",
+    "certeza",
+    "dependência",
+    "fé",
+    "pose"
+  ],
+  "insegurança": [
+    "periculosidade"
+  ],
+  "timidez": [
+    "difidencia"
+  ],
+  "disciplina": [
+    "campo",
+    "domínio",
+    "modalidade"
+  ],
+  "foco": [
+    "concentração"
+  ],
+  "preguiça": [
+    "inércia"
+  ],
+  "paz": [
+    "acordo",
+    "concórdia",
+    "conformidade",
+    "harmonia",
+    "pacificação",
+    "quietude",
+    "repouso",
+    "serenidade",
+    "silêncio"
+  ],
+  "raiva": [
+    "cólera",
+    "fúria",
+    "hidrofobia",
+    "indignação",
+    "ira",
+    "zanga"
+  ],
+  "conflito": [
+    "batalha",
+    "colisão",
+    "conflitos",
+    "confronto",
+    "discórdia",
+    "disputa",
+    "luta",
+    "recontro"
+  ],
+  "briga": [
+    "batalha",
+    "combate",
+    "contenda",
+    "disturbio",
+    "luta",
+    "queixa",
+    "reclamação"
+  ],
+  "ira": [
+    "cólera",
+    "fúria",
+    "raiva",
+    "zanga"
+  ],
+  "calma": [
+    "equanimidade",
+    "relaxamento",
+    "tranquilidade"
+  ],
+  "ansiedade": [
+    "angústia",
+    "inquietação",
+    "preocupação",
+    "ânsia"
+  ],
+  "estresse": [
+    "tensão"
+  ],
+  "nervosismo": [
+    "tensão"
+  ],
+  "agonia": [
+    "angústia",
+    "dor",
+    "martírio",
+    "passamento",
+    "sofrimento",
+    "tormento",
+    "tortura",
+    "transe"
+  ],
+  "negatividade": [
+    "negativismo"
+  ],
+  "força": [
+    "eficácia",
+    "influência",
+    "poder",
+    "potencia",
+    "potência",
+    "robustez",
+    "vigor",
+    "violência"
+  ],
+  "forca": [
+    "cadafalso",
+    "empurrão",
+    "impulso",
+    "impulsão",
+    "laço",
+    "nó",
+    "patíbulo"
+  ],
+  "forte": [
+    "fortaleza"
+  ],
+  "fortaleza": [
+    "baluarte",
+    "forte",
+    "fortificação"
+  ],
+  "fraqueza": [
+    "debilidade"
+  ],
+  "abundância": [
+    "excedente",
+    "excesso",
+    "fartura"
+  ],
+  "abundancia": [
+    "poder",
+    "riqueza"
+  ],
+  "prosperidade": [
+    "sucesso"
+  ],
+  "riqueza": [
+    "abundancia",
+    "bem",
+    "cornucópia",
+    "maturidade",
+    "plenitude",
+    "poder",
+    "possessão"
+  ],
+  "fartura": [
+    "abundância"
+  ],
+  "dinheiro": [
+    "cache",
+    "cobre",
+    "cobres",
+    "divisa",
+    "finanças",
+    "fundos",
+    "grana",
+    "guito",
+    "massa",
+    "moeda",
+    "numerário"
+  ],
+  "escassez": [
+    "ausência",
+    "carência",
+    "deficiência",
+    "falta",
+    "fome",
+    "penúria"
+  ],
+  "pobreza": [
+    "empobrecimento",
+    "indigencia",
+    "miséria",
+    "parcimónia",
+    "pobres",
+    "privação"
+  ],
+  "carência": [
+    "ausência",
+    "defeito",
+    "deficit",
+    "deficiência",
+    "escassez",
+    "falta",
+    "fome",
+    "limitação",
+    "necessidade",
+    "penúria"
+  ],
+  "alegria": [
+    "deleite",
+    "felicidade",
+    "gozo",
+    "prazer"
+  ],
+  "felicidade": [
+    "alegria"
+  ],
+  "contentamento": [
+    "contente",
+    "realizado",
+    "satisfeito"
+  ],
+  "tristeza": [
+    "aflição",
+    "amargura",
+    "desgosto",
+    "dor",
+    "mágoa",
+    "pesar",
+    "remorso",
+    "terpena"
+  ],
+  "infelicidade": [
+    "desgraça",
+    "mágoa",
+    "sofrimento"
+  ],
+  "tranquilidade": [
+    "calma"
+  ],
+  "serenidade": [
+    "paz",
+    "repouso"
+  ],
+  "agitação": [
+    "perturbação",
+    "sacolejo"
+  ],
+  "aflição": [
+    "doença",
+    "dor",
+    "mágoa",
+    "pesar",
+    "tristeza"
+  ],
+  "amor": [
+    "afecção",
+    "afeição",
+    "afetividade",
+    "afeto",
+    "amante",
+    "apego",
+    "bem",
+    "carinho",
+    "cupido",
+    "dolorimento",
+    "doçura",
+    "finura"
+  ],
+  "solidão": [
+    "solidao",
+    "solitude"
+  ],
+  "solidao": [
+    "solidão"
+  ],
+  "ódio": [
+    "abominação",
+    "antipatia",
+    "asco",
+    "aversão",
+    "detestação",
+    "execração",
+    "horror",
+    "ojeriza",
+    "quezília",
+    "repugnância",
+    "repulsa",
+    "repulsão"
+  ],
+  "sucesso": [
+    "estrondo",
+    "prosperidade",
+    "sensação",
+    "triunfo",
+    "êxito"
+  ],
+  "êxito": [
+    "sucesso",
+    "triunfo",
+    "éxito"
+  ],
+  "vitória": [
+    "benefício",
+    "ganho",
+    "triunfo"
+  ],
+  "realização": [
+    "compreensão",
+    "conquista",
+    "cumprimento",
+    "desempenho",
+    "efetuação",
+    "execução",
+    "façanha",
+    "feito",
+    "implementação",
+    "obtenção",
+    "performance",
+    "proeza"
+  ],
+  "fracasso": [
+    "erro",
+    "falha"
+  ],
+  "derrota": [
+    "frustação",
+    "frustração",
+    "perda",
+    "vencimento"
+  ],
+  "insucesso": [
+    "falha"
+  ],
+  "saúde": [
+    "eudemonismo"
+  ],
+  "doença": [
+    "aflição",
+    "bagunça",
+    "distúrbio",
+    "doenças",
+    "enfermidade",
+    "patologia",
+    "transtorno"
+  ],
+  "enfermidade": [
+    "doença"
+  ],
+  "vitalidade": [
+    "elã",
+    "energia",
+    "estro",
+    "verve",
+    "vivacidade"
+  ],
+  "energia": [
+    "vigor",
+    "vitalidade"
+  ],
+  "disposição": [
+    "eliminação",
+    "temperamento"
+  ],
+  "disposicao": [
+    "zelo"
+  ],
+  "vigor": [
+    "energia",
+    "força",
+    "poder",
+    "robustez",
+    "vigência"
+  ],
+  "cansaço": [
+    "esgotamento",
+    "estafa",
+    "fadiga",
+    "fatiga"
+  ],
+  "letargia": [
+    "lassidão"
+  ],
+  "competência": [
+    "capacidade",
+    "facilidade",
+    "habilidade",
+    "proficiência"
+  ],
+  "maestria": [
+    "mestria"
+  ],
+  "criatividade": [
+    "talento"
+  ],
+  "criativo": [
+    "creador",
+    "criador"
+  ],
+  "inspiração": [
+    "aspiração",
+    "inalação"
+  ],
+  "conexão": [
+    "associação",
+    "baldeação",
+    "correspondência",
+    "fornecedor",
+    "ligação",
+    "relação"
+  ],
+  "isolamento": [
+    "incomunicação",
+    "insulação",
+    "isolação"
+  ],
+  "exclusão": [
+    "deletamento",
+    "deleção",
+    "elisão",
+    "excepção",
+    "exceção",
+    "expulsão"
+  ],
+  "harmonia": [
+    "acordo",
+    "concórdia",
+    "conformidade",
+    "paz"
+  ],
+  "equilíbrio": [
+    "contrapeso",
+    "proporção"
+  ],
+  "discórdia": [
+    "batalha",
+    "conflito",
+    "desacordo",
+    "discordo",
+    "discordância",
+    "discrepância"
+  ],
+  "caos": [
+    "balbúrdia",
+    "confusão",
+    "tumulto"
+  ]
+}

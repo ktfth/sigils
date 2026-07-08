@@ -2,17 +2,23 @@
   "name": "sigils",
   "version": "1.1.0",
   "description": "Gerador de sigilos - Transforma intenções em símbolos únicos (magia do caos)",
-  "bin": "./sigils",
-  "main": "sigils",
+  "bin": "./bin/sigils.js",
+  "main": "./index.js",
+  "types": "./dist/index.d.ts",
   "files": [
-    "sigils",
+    "bin",
+    "dist",
+    "index.js",
     "refinar.js",
     "README.md",
     "README.pt-BR.md",
-    "REFINAMENTO.md"
+    "REFINAMENTO.md",
+    "src/refine/data/ATTRIBUTION.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bun build ./src/cli.ts ./src/index.ts --outdir dist --target node --format cjs && tsc --emitDeclarationOnly",
+    "test": "bun test",
+    "prepublishOnly": "bun run build",
     "exemplo": "node exemplos.js",
     "exemplo-refinamento": "node exemplo-refinamento.js"
   },
@@ -30,5 +36,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ktfth/sigils"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/stopword": "^2.0.3",
+    "bun-types": "^1.1.42",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "stopword": "^3.1.5"
   }
 }

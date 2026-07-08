@@ -1,8 +1,14 @@
-# Refinamento de Intenções com IA
+# Refinamento de Intenções
+
+> **Atualização:** desde a versão com motor offline, `sigils --refinar` (padrão) já
+> não depende de IA — usa um léxico curado + regras determinísticas, sem rede.
+> Este documento descreve o caminho **legado via OpenRouter**, hoje acessível
+> pela flag explícita `--refinar-llm`. Para o motor offline, veja o
+> [README.pt-BR.md](./README.pt-BR.md#refinamento-de-intenção-100-offline-sem-ia).
 
 ## Visão Geral
 
-O módulo de refinamento utiliza o OpenRouter para transformar intenções vagas, ambíguas ou mal formuladas em declarações precisas, diretas e em linguagem culta portuguesa.
+O módulo de refinamento via LLM utiliza o OpenRouter para transformar intenções vagas, ambíguas ou mal formuladas em declarações precisas, diretas e em linguagem culta portuguesa.
 
 ## Por que Refinar?
 
@@ -65,8 +71,8 @@ Depois: "Ascendo à abundância financeira"
 # Configurar API Key
 export OPENROUTER_API_KEY="sk-or-v1-sua-chave"
 
-# Refinar intenção
-sigils "minha intenção vaga" --refinar
+# Refinar intenção via LLM
+sigils "minha intenção vaga" --refinar-llm
 ```
 
 ### Módulo JavaScript
